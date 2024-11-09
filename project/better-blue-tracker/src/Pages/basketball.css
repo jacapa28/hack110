@@ -1,0 +1,55 @@
+main {
+    margin: 0px 3px 3px 3px;
+    border: 3px solid #1d2e52;
+    background-color: #78b1d8;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.Box {
+    width: 150px;
+    height: 150px;
+    border: 3px solid #1d2e52;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin:20px;
+}
+
+.TT {
+    color: #1d2e52;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;
+    margin: 5px 0px 20px 0px;
+}
+
+.BT {
+    color: #1d2e52;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+    margin: 0px 0px 5px 0px;
+}
+
+.largebottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.boxline {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
