@@ -1,5 +1,6 @@
 import { PageHead } from "../Components/PageNav"
 import './basketball.css'
+import Graph from "../../public/BballGraph.png"
 
 function Basketball() {
     return (
@@ -29,6 +30,7 @@ function Basketball() {
                             <li>Beat Coach K in his final game</li>
                         </ul>
                     </div>
+                    <img src={Graph} width='30%' height='30%'></img>
                 </div>
             </main>
         </>
