@@ -1,4 +1,5 @@
 import { PageHead } from "../Components/PageNav"
+import './football.css'
 
 function Football() {
     return (

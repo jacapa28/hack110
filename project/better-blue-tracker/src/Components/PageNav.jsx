@@ -1,12 +1,12 @@
 import { Link } from 'react-router-dom'
 import './PageNav.css'
-import Logo from '../../public/logo.jpg'
+import Logo from '../../public/UNClogo.png'
 
 export function PageHead() {
     return (
         <>
             <div className='top'>
-                <img src={Logo} width='80' height='80'></img>
+                <img src={Logo} width='90' height='80'></img>
                 <span></span>
                 <h1>Better Blue Tracker</h1>
             </div>

@@ -3,8 +3,10 @@ main {
     border: 3px solid #1d2e52;
     background-color: #78b1d8;
     display: flex;
-    justify-content: center;
-    flex-direction: column;
+    justify-content: space-evenly;
+    flex-direction: row;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .Box {
@@ -16,28 +18,21 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin:20px;
+    margin: 0px 20px 20px 20px;
 }
 
 .TT {
     color: #1d2e52;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: small;
+    font-size: x-large;
     margin: 5px 0px 20px 0px;
 }
 
 .BT {
     color: #1d2e52;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: medium;
+    font-size: xx-large;
     margin: 0px 0px 5px 0px;
-}
-
-.largebottom {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
 }
 
 .left {
@@ -50,6 +45,24 @@ main {
 .boxline {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
+}
+
+.fun {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: x-large;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+li {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+}
+
+span {
+    height: 20px;
 }
