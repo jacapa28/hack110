@@ -10,7 +10,9 @@ function Home() {
                 <p>PLAYING AT CAROLINA IS AN HONOR. WINNING AT CAROLINA IS A TRADITION.</p>
             </main>
             <div>
-                <img src={Photo} width='100%' height='100%'></img>
+                <a href="https://goheels.com/">
+                    <img src={Photo} alt='UNC Athletics' width='100%' height='100%'></img>
+                </a>
             </div>
         </>
     )

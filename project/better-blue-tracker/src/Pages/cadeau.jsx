@@ -1,6 +1,6 @@
 import { PageHead } from "../Components/PageNav"
 import './cadeau.css'
-import Photo from '../../public/elliotcadeau.jpg'
+import Photo from '../../public/elliotcadeau2.png'
 
 function Cadeau() {
     return (
@@ -30,7 +30,7 @@ function Cadeau() {
                             <li>Swedish</li>
                         </ul>
                     </div>
-                    <img src={Photo} width='32%' height='32%'></img>
+                    <img src={Photo} width='40%' height='40%'></img>
             </main>
         </>
     )

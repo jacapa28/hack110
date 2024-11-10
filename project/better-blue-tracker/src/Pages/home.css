@@ -1,4 +1,4 @@
-main {
+article {
     margin: 0px 3px 3px 3px;
     border: 3px 3px 0px 3px solid #1d2e52;
     background-color: #78b1d8;
@@ -11,6 +11,10 @@ main {
 p {
     font-size: xx-large;
     color: white;
+    transition: background-color 0.3s ease;
+}
+p:hover {
+    background-color: #1d2e52;
 }
 
 div {
