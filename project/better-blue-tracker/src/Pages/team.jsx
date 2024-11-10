@@ -28,6 +28,7 @@ function Team() {
                         <ul>
                             <li>UNC and Duke have only played each other one time in a national championship</li>
                             <li>(WSOC 1992, W9-1)</li>
+                            <li>NCAA-record 21 Final Four appearances</li>
                         </ul>
                     </div>
                     <img src={Graph} width='40%' height='40%'></img>

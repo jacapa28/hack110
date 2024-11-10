@@ -1,6 +1,6 @@
 import { PageHead } from "../Components/PageNav"
 import './individual.css'
-import Graph from '../../public/IndySports3.png'
+import Graph from '../../public/IndySports4.png'
 
 function Individual() {
     return (
