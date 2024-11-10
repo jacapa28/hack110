@@ -10,7 +10,7 @@ function Home() {
                 <p>PLAYING AT CAROLINA IS AN HONOR. WINNING AT CAROLINA IS A TRADITION.</p>
             </main>
             <div>
-                <img src={Photo} width='50%' height='50%'></img>
+                <img src={Photo} width='100%' height='100%'></img>
             </div>
         </>
     )

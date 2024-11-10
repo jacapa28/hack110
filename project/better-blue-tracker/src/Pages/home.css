@@ -12,3 +12,7 @@ p {
     font-size: xx-large;
     color: white;
 }
+
+div {
+    margin: 3px;
+}

@@ -1,6 +1,6 @@
 import { PageHead } from "../Components/PageNav"
 import './individual.css'
-import Graph from '../../public/IndySports4.png'
+import Graph from '../../public/IndySports5.png'
 
 function Individual() {
     return (
@@ -27,10 +27,11 @@ function Individual() {
                         <h3 className="fun">Fun Facts</h3>
                         <ul>
                             <li>58 individual national championships</li>
-                            <li>Since 1977, every four-year student has witnessed at least one national championship during their attendance</li>
+                            <li>Since 1977, every four-year student has witnessed at least</li>
+                            <li>one national championship during their attendance</li>
                         </ul>
                     </div>
-                    <img src={Graph} width='40%' height='40%'></img>
+                    <img src={Graph} width='29%' height='29%'></img>
             </main>
         </>
     )
