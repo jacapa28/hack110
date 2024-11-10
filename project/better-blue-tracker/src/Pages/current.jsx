@@ -1,12 +1,13 @@
 import { PageHead } from "../Components/PageNav"
+import './current.css'
 
 function Current() {
     return (
         <>
             <PageHead/>
-            <div>
-                <p>This is the current season page.</p>
-            </div>
+            <main>
+                <p>slfjlsdf</p>
+            </main>
         </>
     )
 }
