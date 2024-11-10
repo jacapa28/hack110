@@ -1,12 +1,14 @@
 import { PageHead } from "../Components/PageNav"
+import './home.css'
 
 function Home() {
     return (
         <>
             <PageHead/>
-            <div>
-                <p>This is the home page.</p>
-            </div>
+            <main>
+                <p>PLAYING AT CAROLINA IS AN HONOR.</p>
+                <p>WINNING AT CAROLINA IS A TRADITION.</p>
+            </main>
         </>
     )
 }
